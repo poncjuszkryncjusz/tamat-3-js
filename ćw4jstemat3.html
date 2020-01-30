@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+       
+
+        function liczbaNieparzystych(ar) {
+
+            let ile = 0
+
+            for (let i = 0; i < ar.length; i++) {
+                //ar[i]
+                if (ar[i] % 2 != 0) {
+
+                    ile++
+                }
+            }
+            return ile
+        }
+
+        let tab=[3,6,8,9,9];
+        let y = liczbaNieparzystych(tab)
+        
+        console.log(y,tab)
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
